@@ -1,3 +1,5 @@
+import { LoginForm } from '../../features/auth/ui/LoginForm/LoginForm';
+import { RegisterForm } from '../../features/auth/ui/RegisterForm/RegisterForm';
 import { AuthPageProps } from './AuthPageInterface';
 
 export function AuthPage({type} : AuthPageProps) {
@@ -5,13 +7,13 @@ export function AuthPage({type} : AuthPageProps) {
 	case 'login' : 
 		return (
 			<div>
-                login form
+				<LoginForm />
 			</div>
 		);
 	case 'register' : 
 		return (
 			<div>
-                register form
+				<RegisterForm />
 			</div>
 		);
 	}

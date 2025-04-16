@@ -7,8 +7,8 @@ type loginData = {
     password: string,
 }
 type registerData = loginData & {
-    age: number,
-    username: string
+    contract_number: string,
+    
 }
 
 export const AuthApi = {
