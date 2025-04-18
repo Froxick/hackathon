@@ -1,0 +1,22 @@
+.main{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #294DDE;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    transition: 0.2s;
+    
+}
+.main:hover{
+    background-color: #4c69dd;
+    
+    transition: 0.2s;
+    cursor: pointer;
+    scale: 1.01;
+}
+.main:active{
+    transition: 0.2s;
+    scale: 0.97;
+}

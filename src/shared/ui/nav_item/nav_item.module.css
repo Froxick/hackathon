@@ -1,0 +1,50 @@
+.main_div{
+    display:  flex;
+    gap: 12px;
+    text-decoration: none;
+    width: 100px;
+    padding: 5px;
+    width: 13.5vw;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.main_div:hover{
+    background-color: #828b93;
+    
+}
+
+.main_div:hover .text{
+    color: white;
+}
+.text{
+    color: #404040;
+    font-size: 16px;
+    text-decoration: none;
+    width: 80px;
+    margin: 0;
+
+}
+.main_div:hover .icon {
+    filter: brightness(0) invert(1);
+  }
+.icon{
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+}
+.icon_div{
+    margin: 0;
+    padding: 0;
+}
+/* Стили для активного состояния */
+.main_div.active {
+    background-color: #294DDE; /* Синий фон */
+  }
+  
+  .main_div.active .text {
+    color: white !important; /* Белый текст */
+  }
+  
+  .main_div.active .icon {
+    filter: brightness(0) invert(1); /* Белая иконка */
+  }

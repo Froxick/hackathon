@@ -4,9 +4,7 @@ export function AuthLayout(){
 	return(
 		<div>
 			<Outlet />
-			<div>
-                auth la
-			</div>
+			
 		</div>
 	);
 }
