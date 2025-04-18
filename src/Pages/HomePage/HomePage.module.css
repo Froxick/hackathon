@@ -1,0 +1,45 @@
+.text_hello{
+    font-size: 22px;
+    
+}
+.hello_div{
+    margin-left: 1%;
+    width: 550px;
+}
+.content{
+    margin-top: 3%;
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding-top: 5px;
+}
+.context_text_1{
+    font-size: 24px;
+    text-align: center;
+}
+.logo_name{
+    font-size: 32px;
+    font-weight: 600;
+    color: #294DDE;
+}
+.content_container{
+    display: flex;
+    gap: 30px;
+}
+.text_div_text{
+    font-size: 20px;
+    text-align: center;
+}
+.text_div{
+    margin-left: 0px;
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+.img_div{
+    margin-top: 50px;
+    margin-right: 20px;
+    
+}

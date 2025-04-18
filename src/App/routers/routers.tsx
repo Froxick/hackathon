@@ -34,6 +34,9 @@ export const router = createBrowserRouter([
 			{
 				path: PRIVATE_ROUTES_STUDENT.PROFILE,
 				element: <ProfilePage />
+			},{
+				path: PRIVATE_ROUTES_STUDENT.CALENDAR,
+				element: <CalendarPage />
 			}
 		]
 	},

@@ -5,7 +5,9 @@ export const PUBLIC_ROUTES = {
 
 export const PRIVATE_ROUTES_STUDENT = {
 	HOMEPAGE: '/',
-	PROFILE: '/profile'
+	PROFILE: '/profile',
+	CALENDAR: '/student/calendar'
+	
 } as const;
 
 export const PRIVATE_ROUTES_ADMIN = {

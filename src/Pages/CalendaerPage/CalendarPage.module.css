@@ -1,0 +1,27 @@
+.data_div{
+    margin-left: 10px;
+}
+.header{
+    display: flex;
+    gap: 73px;
+}
+.date_pick{
+    position: relative;
+    top: 25px;
+}
+.pick_date_text{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.group_selector{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.calendar_div{
+    margin-top: 50px;
+    height: 550px; /* Задайте нужную высоту */
+    width: 79vw;
+    overflow-y: auto; /* Вертикальная прокрутка */
+    overflow-x: auto; /* Горизонтальную прокрутку можно скрыть */
+  
+}

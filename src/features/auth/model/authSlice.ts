@@ -39,9 +39,14 @@ const authSlice = createSlice({
 		authComplete(state) {
 			state.isLoading = false;
 			state.isLoaded = true;
+		},
+		testAuthComplete(state) {
+			state.isLoaded = true;
+			state.isLoading = false;
+			state.isAuth = true;
 		}
 	}
     
 });
-export const {authComplete,loading, logout, loginSucces} = authSlice.actions;
+export const {authComplete,loading, logout, loginSucces,testAuthComplete} = authSlice.actions;
 export const authReduser = authSlice.reducer;
